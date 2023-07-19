@@ -7,5 +7,15 @@
 This project depended on the Jetson Nano and python code was used in Visual Studio Code. To get this project to work, I had to find/create a dataset then download it into the jetson-inference directory. I then re-trained my network to process and detect the dataset. I used imagenet to detect what the hand sign was and output the percentage of what the letter was. 
 
 ## Running this project
-
+1. Download a dataset OR create your own
+2. Navigate to the jetson-inference directory
+3. Navigate to /python/training/classification/data and add a directory into there (I used "asl_dataset")
+4. Download the data into the asl_dataset
+5. Create labels to sort the data into (i.e.: "a", "b")
+6. Create train, val, and test folders
+7. Split the data into the folders (train 70% , val 15% , test .15%)
+8. Train the model
+9. Use the imagenet program
+10. Classify an image using: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt data/asl_dataset/test/a/(NAME OF IMAGE) $DATASET/test/a/output.jpg
+11. Repeat for images
 [View a video explanation here](video link)
