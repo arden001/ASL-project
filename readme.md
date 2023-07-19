@@ -15,7 +15,10 @@ This project depended on the Jetson Nano and python code was used in Visual Stud
 6. Create train, val, and test folders
 7. Split the data into the folders (train 70% , val 15% , test .15%)
 8. Train the model
-9. Use the imagenet program
-10. Classify an image using: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt data/asl_dataset/test/a/(NAME OF IMAGE) $DATASET/test/a/output.jpg
-11. Repeat for images
+9. Export the network
+10. Use the imagenet program
+11. Set Net and Dataset variables
+12. Run this command to see how it operates on an image: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt data/asl_dataset/test/a/(NAME OF IMAGE) $DATASET/test/a/output.jpg
+              Replace "NAME OF IMAGE" with image name
+
 [View a video explanation here](video link)
