@@ -1,16 +1,11 @@
-# Project Name
+# ASL Detector
 
- Add short description of project here > 
-
-![add image descrition here](direct image link here)
-
+ My project is an ASL alphabet detector. I wanted to make this project because I actually have a deaf cousin, but due to my lack of knowledge of ASL, we have a difficult time communicating. I made this detector to aid in helping people learn/translate the basic foundation of ASL: the alphabet. With my project, I hope that it can turn into somehting bigger and better that will break down the communication barrier between the hearing and hearing impaired. I would love for this project to be able to detect full on ASL conversations and translate them!
+ 
 ## The Algorithm
 
-Add an explanation of the algorithm and how it works. Make sure to include details about how the code works, what it depends on, and any other relevant info. Add images or other descriptions for your project here. 
+This project depended on the Jetson Nano and python code was used in Visual Studio Code. To get this project to work, I had to find/create a dataset then download it into the jetson-inference directory. I then re-trained my network to process and detect the dataset. I used imagenet to detect what the hand sign was and output the percentage of what the letter was. 
 
 ## Running this project
-
-1. Add steps for running this project.
-2. Make sure to include any required libraries that need to be installed for your project to run.
 
 [View a video explanation here](video link)
