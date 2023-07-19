@@ -16,5 +16,5 @@ This project depended on the Jetson Nano and python code was used in Visual Stud
 9. Export the network
 10. Use the imagenet program
 11. Set Net and Dataset variables
-12. Run this command to see how it operates on an image: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt data/asl_dataset/test/a/(NAME OFIMAGE) $DATASET/test/a/output.jpg - Replace "NAME OF IMAGE" with image name
+12. Run this command to see how it operates on an image: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt data/asl_dataset/test/(FOLDER NAME)/(NAME OF IMAGE) $DATASET/test/(FOLDER NAME)/output.jpg - Replace "NAME OF IMAGE" with image name and replace "FOLDER NAME" with whichever letter is being detected
     
