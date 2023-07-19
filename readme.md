@@ -19,6 +19,6 @@ This project depended on the Jetson Nano and python code was used in Visual Stud
 10. Use the imagenet program
 11. Set Net and Dataset variables
 12. Run this command to see how it operates on an image: imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt data/asl_dataset/test/a/(NAME OF IMAGE) $DATASET/test/a/output.jpg
-              Replace "NAME OF IMAGE" with image name
+                        - Replace "NAME OF IMAGE" with image name
 
 [View a video explanation here](video link)
