@@ -21,3 +21,6 @@ This project depended on the Jetson Nano and python code was used in Visual Stud
 Required libraries:
 1. Resnet-18
 2. imagenet
+
+# Demo Video
+https://youtu.be/7VkYnIE0xSc
